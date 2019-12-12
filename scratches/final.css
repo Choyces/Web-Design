@@ -8,14 +8,13 @@ header{
     text-align: center;
     color: #FCF5C7;
     padding: 0.5%;
-    margin-bottom: 5%;
+    margin-bottom: 2cm;
 }
 .cart{
-    position: fixed;
-    display: block;
-    margin-left: 95%;
     float: right;
-    background-size: cover;
+    position: fixed;
+    margin-left: 95%;
+    max-width: 1%;
 }
 a{
     text-decoration: none;
@@ -28,10 +27,10 @@ a{
     color: #9AD1D4;
 }
 .menu{
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 1cm;
+    max-width: 1000px;
 
 }
 nav{
@@ -56,10 +55,11 @@ aside{
     color: #FCF5C7;
 }
 .promo{
-    width: 960px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 1%;
+    text-align: center;
+    max-width: 90%;
 }
 footer{
     margin-top: 50px;
@@ -123,7 +123,19 @@ footer{
     flex-flow: row wrap;
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
 }
 footer {
     margin-top: 10%;
+}
+@media only screen and (max-width: 800px){
+    .button{
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px){
+    .cart{
+        display: none;
+    }
+
 }
