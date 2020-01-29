@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: #9AD1D4;
+    width: auto;
+    text-align: center;
+    color: #FCF5C7;
+    padding: 0.5%;
+    margin-bottom: 2cm;
+}
+.cart{
+    float: right;
+    position: fixed;
+    margin-left: 95%;
+    max-width: 1%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.button{
+    transition: color 0.3s;
+}
+.button:hover{
+    color: #9AD1D4;
+}
+.menu{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1cm;
+    max-width: 1000px;
+
+}
+nav{
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Sans TC',sans-serif;
+}
+aside{
+    margin-left: auto;
+    margin-right: auto;
+}
+.menub{
+    background-color: #EDAFB8;
+    color: #FCF5C7;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+.menub:hover{
+    color: #FCF5C7;
+}
+.promo{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1%;
+    text-align: center;
+    max-width: 90%;
+}
+footer{
+    margin-top: 50px;
+}
+.item{
+    width: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px 15px;
+}
+.items{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+.gianno{
+    margin-left: 200px;
+    width: 500px;
+    height: 500px;
+    float: left;
+    display: flex;
+}
+.desc{
+    float: right;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Sans TC',sans-serif;
+    width: 450px;
+    margin-right: 50px;
+    font-size: 20px;
+    height: 300px;
+}
+.subdesc{
+    font-size: 15px;
+}
+.SIZES{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 20px;
+    color: black;
+    font-size: 12px;
+}
+.addcart{
+    height: 20px;
+    background-color: #EDAFB8;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+.addcartb{
+    color: white;
+}
+.addcart:hover{
+    background-color: #9AD1D4;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+footer {
+    margin-top: 10%;
+}
+@media only screen and (max-width: 980px){
+    .button{
+        display: none;
+    }
+}
+@media only screen and (max-width: 980px){
+    .cart{
+        display: none;
+    }
+
+}
